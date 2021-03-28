@@ -11,32 +11,32 @@ async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>👋🏻 Hi {message.from_user.first_name}!</b>
 
-I am Devil Music Bot, an open-source bot that lets you play music in your Telegram groups voice chat.
+I am Denvil Music Bot, an open-source bot that lets you play music in your Telegram groups voice chat.
 This bot is based on su music project and hamkers vc bot. 
 
-To add in your group contact us at @devilcodes_network
+To add in your group contact us at @Anierosupport
 
 Use the buttons below to know more about me.""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⚒ Source code", url="https://github.com/edguru/devilsmusic"
+                        "Add me to group", url="https://t.me/URLmusicbot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/devilcodes_network"
+                        "💬 Group", url="https://t.me/AnieRoSupport"
                     ),
                     InlineKeyboardButton(
-                        "Channel 🔈", url="https://t.me/devilcodes_inc"
+                        "Channel 🔈", url="https://t.me/anie_news"
                     ),
                     InlineKeyboardButton(
-                        "offtopic 😈", url="https://t.me/devils_crazy_chats" )
+                        "offtopic 😈", url="https://t.me/Anieoff_topic" )
                 ],
                 [
                     InlineKeyboardButton(
-                        "Donate the coder", url="https://www.paypal.me/devilgaurav"
+                        "Donate the coder", url="https://t.me/xdenvil"
                     )
                 ]
             ]
