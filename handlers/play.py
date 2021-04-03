@@ -30,7 +30,7 @@ from helpers.errors import DurationLimitError
 
 chat_id = None
 @Client.on_message(
-    filters.command("play")
+    filters.command("music")
     & filters.group
     & ~ filters.edited
 )
@@ -187,7 +187,7 @@ def changeImageSize(maxWidth, maxHeight, image):
     return newImage
  
 @Client.on_message(
-    filters.command("song")
+    filters.command("play")
     & filters.group
     & ~ filters.edited
 )
