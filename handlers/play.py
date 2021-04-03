@@ -187,7 +187,7 @@ def changeImageSize(maxWidth, maxHeight, image):
     return newImage
  
 @Client.on_message(
-    filters.command("play")
+    filters.command("song")
     & filters.group
     & ~ filters.edited
 )
