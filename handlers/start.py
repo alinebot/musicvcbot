@@ -26,10 +26,10 @@ Use the buttons below to know more about me.""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Music Group", url="https://t.me/AnieRoSupport"
+                        "💬 play here", url="https://t.me/MusicBotEnjoy_group"
                     ),
                     InlineKeyboardButton(
-                        "Channel 🔈", url="https://t.me/MusicBotEnjoy_group"
+                        "Channel 🔈", url="https://t.me/anie_news"
                     ),
                     InlineKeyboardButton(
                         " support chat", url="https://t.me/Anierosupport" )
