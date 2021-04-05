@@ -26,17 +26,17 @@ Use the buttons below to know more about me.""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/AnieRoSupport"
+                        "💬 Music Group", url="https://t.me/AnieRoSupport"
                     ),
                     InlineKeyboardButton(
-                        "Channel 🔈", url="https://t.me/anie_news"
+                        "Channel 🔈", url="https://t.me/MusicBotEnjoy_group"
                     ),
                     InlineKeyboardButton(
-                        "offtopic 😈", url="https://t.me/Anieoff_topic" )
+                        " support chat", url="https://t.me/Anierosupport" )
                 ],
                 [
                     InlineKeyboardButton(
-                        "Donate the coder", url="https://t.me/xdenvil"
+                        "Donate the coder", url="https://t.me/@noobviral"
                     )
                 ]
             ]
